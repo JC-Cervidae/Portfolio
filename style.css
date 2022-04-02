@@ -9,19 +9,6 @@
     --body-font: 'Poppins', sans-serif;
 }
 
-/* Font size for large devices */
-@media screen and (min-width: 968px) {
-    :root {
-        --big-font-size: 3rem;
-        --h1-font-size: 2.25rem;
-        --h2-font-size: 1.5rem;
-        --h3-font-size: 1.25rem;
-        --normal-font-size: 1rem;
-        --small-font-size: .875rem;
-        --smaller-font-size: .813rem;
-    }
-}
-
 /*==================== BASE ====================*/
 * {
   box-sizing: border-box;
@@ -148,7 +135,7 @@ img {
 }
 #html-line, #css-line, #SQL-line{
   background-color:hsl(166, 34%, 20%);
-  Margin:10px 0px 10px 0px;
+  Margin:10px -8px 10px -8px;
   border: 1px solid black;
 }
 
@@ -221,13 +208,4 @@ img {
 #top-jump{
   display:block;
   text-align:center;
-  border: 1px solid black;
-  background-color:black;
-  margin: 0px 0px 0px 1100px;
-  width:125px;
-  height:85px;
-}
-#top-jump:hover{
-  background-color:orange;
-  border: 1px solid black;
 }
