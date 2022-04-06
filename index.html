@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
     <html lang="en">
     <head>
@@ -8,75 +7,100 @@
         
         <!--==================== CSS ====================-->
         <link rel="stylesheet" href="./style.css">
-
+<!--==================== TAB DISPLAY CONTENT  ====================-->
         <title>JC Cervidae's Portfolio</title>
     </head>
-    <body>
-        <!--==================== HEADER ====================-->
-        <header class="header" id="header">
-          <b>The Portfolio of<a href="https://github.com/JC-Cervidae" target="_blank" id="header-link">JC Cervidae</a></b>
-        </header>
-
-        <!--==================== MAIN ====================-->
-        <main class="main">
-            <!--==================== HOME ====================-->
-            <section class="home section" id="home">
-               <p> Welcome to my portfolio! Here, you can see some examples of the work I've done since starting my journey of coding! There's also contact information like my LinkedIn and GitHub in case you'd like to reach out, along with a bit of information about myself including my skills, and what I'm currently working on.</p> 
-          </section> 
-
-            <!--==================== ABOUT ====================-->
-            <section class="about section" >
-              <p id="about-header"><b>About Me</b></p>
-                <p id="about">I started my coding journey in late March of 2022 when I was looking for a new job in Content Moderation. A listing appeared for a "Content Moderation Strategy Analyst" with the only hard requirement being an understanding of SQL, and being confident in my ability to learn, I started to research, study, and practice with SQL on my computer. Within a few days I realized I actually really enjoyed the hands-on problem solving involved in coding, and after passing a few minor certification tests online, I decided to follow my newfound interest to <a href="https://www.freecodecamp.org/learn" id="codecamp-about" target="_blank">freeCodeCamp</a> where I received my certification in Responsive Web Design with HTML/CSS. Outside of coding, I like to spend my free time playing videogames, volunteering at the local animal shelter, and pestering my friends with photos of rats I find cute.</p>
-            </section>
-
-            <!--==================== SKILLS ====================-->
-            <section class="skills section" id="skills">
-              <p id="skills-header"><b>Skills</b></p>
-              <p>
-              <ul>
-                <li id="html-line">HTML</li>
-                <li id="css-line">CSS</li>
-               <li id="SQL-line">SQL</li>
-              </ul>
-              </p>
-            </section>
-
-
-            <!--==================== PORTFOLIO ====================-->
-            <section class="portfolio section" id="portfolio">
-              
-              <p id="mywork"><b>My Work</b></p>
-              
-              <a href="https://codepen.io/JC_Cervidae/full/dyJzqMb" id="technical-doc-project" class="projects">SQL Technical Documentation</a>
-          <p id="this-page" class="projects"> The page you're on now</p>
+  <!------------VISIBLE CONTENT BELOW------------------>
+  <body id="body" class="body section">
+    
+     <!------------NAVIGATION AND HEADER------------------>
+    <header id="header" class="header">
+      <ul id="navbar" class="navbar">
+        <li><a class="navlinks navbar" href="#header-1">ABOUT ME</a></li>
+  <li><a class="navlinks navbar" href="#header-2">MY WORK</a></li>
+  <li><a class="navlinks navbar" href="#header-3">LANGUAGES/SKILLS</a></li>
+  <li><a class="navlinks navbar" href="#header-4">GALLERY</a></li>
+  <li><a class="jumplink navbar" href="#bottom-jump" id="bottom-button">Jump to bottom?</a></li>
+</ul>
+</header>
+       <!------------MAIN CONTENT------------------>
+    <main>
+      <div id="layout-container">
+      <article>
+        <h1 id="header-1" class="headers">The Portfolio of <a id="headerlink" href="https://github.com/JC-Cervidae" target="_blank" id="header-link">JC Cervidae</a></h1>
+    <div id="division-1" class="division">
+      <p id="AboutMe">
+        Welcome to my portfolio! Here, you can see some examples of the work I've done since starting my journey of coding! There's also contact information like my LinkedIn and GitHub in case you'd like to reach out, along with a bit of information about myself including my skills, and what I'm currently working on.
+      </p>
+        </div>
+      </article>
+      <!------------CONTENT DIVIDE 1------------------>
+      <article>
+   <h2 id="header-2" class="headers">
+   ABOUT ME 
+   </h2>
+    <div id="division-2" class="division">
+     <p id="about">
+       I started my coding journey in late March of 2022 when I was looking for a new job in Content Moderation. A listing appeared for a "Content Moderation Strategy Analyst" with the only hard requirement being an understanding of SQL, and being confident in my ability to learn, I started to research, study, and practice with SQL on my computer. Within a few days I realized I actually really enjoyed the hands-on problem solving involved in coding, and after passing a few minor certification tests online, I decided to follow my newfound interest to <a href="https://www.freecodecamp.org/learn" id="codecamp-about" target="_blank">freeCodeCamp</a> where I received my certification in Responsive Web Design with HTML/CSS. Outside of coding, I like to spend my free time playing videogames, volunteering at the local animal shelter, and pestering my friends with photos of rats I find cute.
+      </p>
+        </div>
+      </article>
+   <!------------------------------PORTFOLIO DIVISION------------------------------------------->
+      <article>
+    <h2 id="header-3" class="headers">
+      MY PORTFOLIO
+    </h2>
+    <div id="division-3" class="division">
       
-            </section>
-            <!--==================== CURRENTLY WORKING ON ====================-->
-            <section class="working section">
-              <p id="working-title" class="working"><b>What am I currently working on?</b></p>
-              <p>
-               <ul id="working-body" class="working">
-                 <li id="unit1">Practicing more with HTML/CSS </li>
-                   <li id="unit2">Re-designing my older works </li>
-                 </ul>
-              </p>
-            </section>
+    <pclass="portfolio section" id="portfolio">
+      <a href="https://codepen.io/JC_Cervidae/full/dyJzqMb" id="technical-doc-project" target="_blank" class="projects">SQL Technical Documentation</a>
+      <a href="https://codepen.io/JC_Cervidae/pen/ZEvXVao" target="_blank" class="projects"><br>Previous Portfolio Page</a>
+      <p id="this-page" class="projects"> and the page you're on now!</p>
+        </div>
+      </article>
+            <!------------SKILLS DIVISION------------------>
+      <article>
+    <h2 id="header-4" class="headers">
+      MY LANGUAGES / SKILLS
+    </h2>
+    <div  class="division">
+          <ul id="skills">
+        <li class="skills">HTML</li>
+        <li class="skills">CSS</li>
+        <li class="skills">SQL</li>
+      </ul>
+     </div>
+      </article>
 
-            <!--==================== CONTACT ME ====================-->
-            <section class="contact-links" id="contact">
-              Contact me!
-             <a href="https://github.com/JC-Cervidae" target="_blank" id="github-link" class="contact-links"> GitHub </a>
-              <a href="https://www.linkedin.com/in/john-george-604448217/" target="_blank" id="linkedin-link" class="contact-links"> LinkedIn </a>
-            </section>
-        </main>
+                           <!----------------------------IMAGE GRID----------------------------------->
+        <h3 class="headers">GALLERY</h3>
+        <div class="grid-container">
+    <div class="grid-child upper division galheader">
+        Previous Portfolio <img class="gallery" src="https://drive.google.com/uc?export=view&id=1uAmPLEppQhEilxaJRXvh451eDR1oyswv" alt="a screenshot of a page I created">
+    </div>
 
-        <!--==================== FOOTER ====================-->
-
-        <footer class="footer">
-         Nothing down here yet! <a href="#header" id="top-jump"> Jump to top? </a>
-        </footer>
+    <div class="grid-child upper division galheader">
+        Original Portfolio <img class="gallery" src="https://drive.google.com/uc?export=view&id=1i0Qe8waibITN0MdWBBTzEELPo-bQAcwu" alt="a screenshot of a page I created">
+    </div>
         
+            <div class="grid-child lower division galheader">
+        Generic Template <img class="gallery" src="https://drive.google.com/uc?export=view&id=1op3dz7e-bVbAI2p4tdQSZCEmeOm0vRsr" alt="a screenshot of a page I created">
+    </div>
 
-    </body>
+        <div class="grid-child lower division galheader"> 
+        Technical Document <img id="techdoc" class="gallery" src="https://drive.google.com/uc?export=view&id=1WoTqMAh_XM1jr1SKqmsVWA_uS4sjRjlo" alt="a screenshot of a page I created">
+    </div>
+  
+        </div>
+</div>
+      </div>
+    </main>
+     <!------------FOOTER CONTENT------------------>
+    <p id="bottom-jump" class="footer contact">Looking to get a hold of me? Contact me through any of these links:
+      <a href="https://discord.com/users/483368551801946114" target="_blank" id="discord" class="contact-links"><img src="https://logos-download.com/wp-content/uploads/2021/01/Discord_Logo-1-700x202.png" id="discordlogo"></a>
+      <a href="https://github.com/JC-Cervidae" target="_blank" id="github" class="contact-links"><img src="https://logos-download.com/wp-content/uploads/2016/09/GitHub_logo_wordmark.png" id="githublogo"></a>
+      <a href="https://www.linkedin.com/in/john-george-604448217/" id="linkedin" target="_blank" class="contact-links"><img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Logo.svg.original.svg" id="linkedinlogo"></a>
+      <a href="#header" id="top-jump">Jump to top?</a></p>
+  
+     </body>
 </html>
