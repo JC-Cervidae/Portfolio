@@ -17,7 +17,25 @@
   font-size: 35px;
 }
 
+/*--------------------------SCROLLBAR WIDTH------------------------------*/
+::-webkit-scrollbar {
+  width: 10px;
+}
 
+/*------------------------SCROLLBAR TRACK-------------------*/
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/*----------------------SCROLLBAR GRABBER--------------------*/
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/*-----------------------GRABBER HOVER COLOR----------------*/
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
 /*----------------------------------------TEST CONTENT---------------------------------*/
 
 
@@ -58,7 +76,7 @@ ul {
 
 li a {
   display: block;
-  color: hsl(36, 100%, 50%);;
+  color:hsl(224, 51%, 11%);
   text-align: center;
   margin: 14px 26px;
   text-decoration: none;
