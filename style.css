@@ -35,7 +35,7 @@ color:hsl(224, 51%, 11%);
 
 .division{
   border:5px solid hsl(223, 45%, 28%);
-  background-color:HSL(219, 20%, 30%);
+  background-color:HSL(219, 20%, 31%);
 }
 
 
@@ -118,18 +118,23 @@ main{
     grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
     grid-gap: 50px;
+  margin:0px 0px 50px 0px;
 }
 
 .upper{
-  margin: 0px 0px 0px 0px;
+  margin: 0px 0px 20px 0px;
     font-size:20px;
   border:2px solid hsl(223, 45%, 28%);
+  height:600px;
 }
 
 .lower{
-  margin: -10px 0px 20px 0px;
+  height:100%;
+  width:100%;
+  margin: -10px 0px 40px 0px;
     font-size:20px;
   border:2px solid hsl(223, 45%, 28%);
+  padding:0px 0px 0px 0px;
 }
 
 aside{
@@ -158,7 +163,7 @@ aside{
   text-decoration: none;
   color:hsl(224, 51%, 11%); 
   float:right;
-  margin:0px 0px 0px 0px;
+  margin:0px 20px 0px 0px;
     font-size:30px;
       font-weight:bold;
 }
@@ -181,6 +186,7 @@ aside{
 
 .gallery{
   width:100%;
+  height:100%;
 }
 
 #discordlogo{
@@ -196,9 +202,5 @@ aside{
 #githublogo{
   height:35px;
     width:130px;
-}
-
-#techdoc{
-  height:90%;
 }
 /*----------------------------------------MEDIA QUERIES-------------------------------------------*/
